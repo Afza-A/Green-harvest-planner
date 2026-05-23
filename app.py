@@ -81,10 +81,10 @@ with st.sidebar:
     )
 
     area = st.number_input(
-        "Cultivated Area (hectares)",
+        "Cultivated Area (guntas)",
         min_value=1.0,
         value=1000.0,
-        step=100.0,
+        step=50.0,
     )
 
     rainfall = st.slider(
